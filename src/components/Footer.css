@@ -1,0 +1,109 @@
+.footer{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 2rem 4rem ;
+    background-color: #121212;
+
+}
+.footer-container{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    padding: 4rem 3rem;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.left{
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.location{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1.3rem;
+
+}
+.location p{
+  margin-left: 1rem;
+  color: #fff;
+  font-size: 16px;
+}
+
+.phone{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1.3rem;
+
+}
+.phone b{
+    text-decoration: none;
+    color: #fff;
+}
+.phone p{
+  margin-left: 1rem;
+  color: #fff;
+  font-size: 16px;
+}
+.email{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+
+}
+.email p{
+    margin-left: 1rem;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+
+.right{
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1rem;
+}
+.right h4{
+    color: #fff;
+    font: 600;
+    padding-bottom: 1rem;
+}
+.right p{
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+
+}
+.right .socialicon{
+    width: 100%;
+}
+
+@media screen and (max-width:840px){
+    .footer-container{
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin: auto;
+        padding: 4rem 2rem;
+        color: #fff;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+}

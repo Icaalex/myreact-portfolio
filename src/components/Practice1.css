@@ -1,0 +1,21 @@
+.container{
+    background-color: ;
+    width: 70%;
+    color: brown;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+.img1{
+    overflow: hidden;
+    box-sizing: border-box;
+    
+
+}
+.img1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid blue;
+
+}

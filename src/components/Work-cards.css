@@ -1,0 +1,90 @@
+.contents{
+    max-width: 310px ;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(27, 26, 26);
+    margin: 2rem 1.5rem 3rem;
+    float: left;
+    padding: 8px;
+
+}
+.wraps{
+    
+}
+.cards{
+    overflow: hidden;
+    
+    padding: 8px;
+}
+.imgcont{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.imgcont img{
+    width: 280px;
+    height: 180px;
+}
+.headen{
+    margin-bottom: 1rem;
+}
+.headen h3{
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #eee;
+    text-transform: capitalize;
+    text-align:start;
+
+}
+.ba{
+    margin-bottom: 1rem;
+}
+.ba p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #eee;
+    text-align:start;
+}
+.bb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    padding: 3px 1rem;
+    background-color: #b2a817;
+    text-align: center;
+    border: 2px solid #eee;
+    margin-right: 1rem;
+    box-sizing: border-box;
+
+}
+.d-flex{
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+
+}
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flexWrap{
+    flex-wrap: nowrap;
+}
+
+.justify-center{
+    align-items: center;
+    justify-content: center;
+}
+@media screen  and (max-width:760px) {
+    .contents{
+        margin: buttom;
+    }
+}

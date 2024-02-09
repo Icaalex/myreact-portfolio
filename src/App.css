@@ -1,4 +1,25 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: #000000;
+}
+h1,
+h2,
+h4,
+p,
+a{
+  color: #002;
+  text-decoration: none;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +56,49 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.d-flex{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.d-flex-2{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+}
+.row{
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.col{
+  flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.space-between{
+  justify-content: space-between;
+  align-items: space-between;
+}
+.practiceone{
+  background-color: white;
+}
+
+.practicetwo{
+  background-color: pink;
+}
+
+#light{
+  background-color: white;
+  color: #0f0f0f;
+}
+#dark{
+  background-color: #0f0f0f;
+  color: #eee;
 }

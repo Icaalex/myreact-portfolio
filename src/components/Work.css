@@ -1,0 +1,49 @@
+.d-flex{
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flexWrap{
+    flex-wrap: nowrap;
+}
+
+.justify-center{
+    align-items: center;
+    justify-content: center;
+}
+.work{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.head{
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.head h2{
+    color: #eee;
+
+}
